@@ -3,7 +3,7 @@ import { siteInfo } from '@/config/siteInfo';
 
 const SocialLinks = ({mobile=false}) => {
   return (
-    <div className={`${mobile === true ? 'flex' : 'hidden'} md:flex items-center justify-between text-white w-[100%] max-w-[1000px] gap-5` }>
+    <div className={`${mobile === true ? 'flex' : 'hidden'} md:flex items-center justify-between text-white w-[100%] max-w-[170px] gap-3` }>
         <a href={siteInfo.social_links["facebook"]} target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
              <Facebook size={24} />
         </a>
