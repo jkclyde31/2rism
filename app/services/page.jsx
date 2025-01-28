@@ -6,14 +6,29 @@ export const metadata = {
 
 export default function Services() {
   return (
-    <div className="flex items-center justify-center h-[75vh] flex-col gap-5 max-w-[1200px] mx-auto">
-      <Button className="bg-black">Default Button</Button>
-      <Button variant="secondary">Secondary Button</Button>
-      <Button variant="outline" size="large">Large Outline Button</Button>
-      <Button variant="danger" isLoading>Loading Button</Button>
-      {/* <Button variant="success" icon={<Heart />}>With Icon</Button> */}
-      {/* <Button variant="ghost" icon={<ArrowRight />} iconPosition="right">Ghost Button</Button> */}
-      <Button fullWidth>Full Width Button</Button>
-    </div>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <h1 className="text-2xl font-bold mb-4">Customizable Button Example</h1>
+    <Button
+      width="w-48"
+      height="h-[48px]"
+      color="bg-green-500"
+      hoverColor="hover:bg-green-600"
+    >
+      Click Me
+    </Button>
+
+    <Button
+      width="w-64"
+      height="h-16"
+      color="bg-purple-500"
+      textColor="text-white"
+      padding="px-6 py-3"
+      borderRadius="rounded-lg"
+      hoverColor="hover:bg-purple-600"
+      className="mt-4"
+    >
+      Another Button
+    </Button>
+  </div>
   );
 }
