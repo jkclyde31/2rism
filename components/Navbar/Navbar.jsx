@@ -74,7 +74,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='sticky top-0 bg-blue-700 border-b border-blue-500 z-50'>
+      <nav className='sticky top-0 bg-navBg border-b z-50'>
         <div className='mx-auto max-w-[1720px] px-2 sm:px-6 lg:px-8'>
           <div className='relative flex h-16 md:h-20 items-center'>
             <MenuDropDown 
@@ -98,13 +98,13 @@ const Navbar = () => {
             animate="visible"
             exit="hidden"
             variants={mobileMenuVariants}
-            className='md:hidden fixed inset-0 bg-blue-700 z-[70] flex flex-col'
+            className='md:hidden fixed inset-0 bg-navBg z-[70] flex flex-col'
           >
             {/* Top Bar with Close Button */}
             <div className="h-16 flex items-center px-2 sm:px-6 lg:px-8">
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-blue-600 focus:outline-none"
+                className="inline-flex items-center justify-center rounded-md p-2 text-white  focus:outline-none"
               >
                 <X size={24} />
               </button>

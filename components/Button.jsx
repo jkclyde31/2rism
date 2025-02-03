@@ -31,3 +31,20 @@ const Button = ({
 };
 
 export default Button;
+
+
+{/*
+example ==================================
+
+ <Button
+    width="w-48"
+    height="h-[48px]"
+    color="bg-green-500"
+    hoverColor="hover:bg-green-600"
+  >
+  Click Me
+  </Button> 
+
+
+*/}
+

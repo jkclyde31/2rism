@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.inner-row{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
