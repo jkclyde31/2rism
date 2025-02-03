@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 const NavigationMenu = ({navLinks}) => {
     const pathname = usePathname();
   return (
-                  <div className='hidden md:flex max-w-[683px] justify-between items-center gap-[10px] px-[10px] bg-[#0F0F0F] rounded-[15px]'>
+                  <div className='hidden md:flex max-w-[683px] justify-between items-center gap-[10px] px-[10px]'>
                     {navLinks.map((link) => (
                       <Link
                         key={link.href}
