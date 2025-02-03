@@ -1,9 +1,9 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "../components/Footer";
-import { SiteInfoProvider } from "@/components/SiteInfoProvider";
+import { SiteInfoProvider } from "@/providers/SiteInfoProvider";
 // import AuthProvider from "@/components/AuthProvider";
-import AnimationWrapper from "@/components/AnimationWrapper";
+import AnimationWrapper from "@/providers/AnimationWrapper";
 
 export const metadata = {
   title: {
