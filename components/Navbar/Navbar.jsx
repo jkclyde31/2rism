@@ -74,7 +74,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='sticky top-0 bg-navBg border-b z-50'>
+      <nav className='z-50'>
         <div className='mx-auto max-w-[1720px] px-2 sm:px-6 lg:px-8'>
           <div className='relative flex h-16 md:h-20 items-center'>
             <MenuDropDown 

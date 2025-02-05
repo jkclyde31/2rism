@@ -1,9 +1,9 @@
 import "./globals.css";
-import Navbar from "@/components/Navbar/Navbar";
 import Footer from "../components/Footer";
 import { SiteInfoProvider } from "@/providers/SiteInfoProvider";
 // import AuthProvider from "@/components/AuthProvider";
 import AnimationWrapper from "@/providers/AnimationWrapper";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: {
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`antialiased`}>
       <AnimationWrapper>  
         <SiteInfoProvider>
-          <Navbar/>
+          <Header/>
           {children}
           <Footer/>
         </SiteInfoProvider>

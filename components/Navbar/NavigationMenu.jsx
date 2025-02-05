@@ -11,7 +11,7 @@ const NavigationMenu = ({navLinks}) => {
                         key={link.href}
                         href={link.href}
                         className={`${
-                          pathname === link.href ? 'bg-[#1A1A1A]' : ''
+                          pathname === link.href ? 'bg-[#7B61FF]' : ''
                         } text-white hover:bg-[#1A1A1A] hover:text-white rounded-md px-[14px] py-[12px]`}
                       >
                         {link.name}
