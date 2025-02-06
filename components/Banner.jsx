@@ -4,15 +4,15 @@ import { Globe, MapPin, Calendar, Users } from "lucide-react"
 const Banner = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-[185px]">
-      <h1 className="text-[48px] font-semibold tracking-0 text-white mb-[32px]">
+      <h1 className="text-[48px] font-semibold tracking-0 text-white mb-[32px] animate-slide-up" data-delay="0.4">
         Discover the most engaging places
       </h1>
-      <Button className="bg-[#7B61FF] text-[18px] tracking-[0px] max-w-[272px] w-full py-[33px] flex items-center justify-center gap-1 mb-[185px]">
+      <Button className="bg-[#7B61FF] text-[18px] tracking-[0px] max-w-[272px] w-full py-[33px] flex items-center justify-center gap-1 mb-[185px] animate-slide-up" data-delay="0.6">
         <Globe size={28} /> 
         Discover on 3D Globe
       </Button>
       
-      <div className="max-w-[1140px] w-full bg-white rounded-[16px] px-[20px] py-[16px] flex items-center justify-between mb-[120px]">
+      <div className="max-w-[1140px] w-full bg-white rounded-[16px] px-[20px] py-[16px] flex items-center justify-between mb-[120px] animate-slide-up" data-delay="0.8">
         <div className="flex items-center gap-2 flex-1.5 px-4">
           <MapPin className="text-[#FFA800]" />
           <div className="flex flex-col">

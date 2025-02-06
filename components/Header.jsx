@@ -14,7 +14,8 @@ const Header = () => {
         overflow: "hidden", 
       }}
 
-      className="px-[10px]"
+      className="px-[10px] animate-slide-down"
+ 
     >
       <Navbar />
       <Banner />
