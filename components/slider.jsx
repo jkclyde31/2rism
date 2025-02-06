@@ -5,7 +5,7 @@ import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import { useState } from 'react';
 
-const Slider = ({ slides, autoplayInterval = 3000, breakpoints, slideContent }) => {
+const Slider = ({ slides, autoplayInterval = 5000, breakpoints, slideContent }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
 
