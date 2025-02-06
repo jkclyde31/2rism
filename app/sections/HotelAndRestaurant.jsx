@@ -89,7 +89,7 @@ const HotelAndRestaurants = () => {
   return (
     <div className='inner-row relative'>
       {/* Text Section || Upper Section */}
-      <div className='flex w-full justify-between items-center mt-[120px] mb-[94px]'>
+      <div className='flex w-full justify-between items-center mt-[120px] mb-[64px]'>
         <h2 className='text-[32px] font-semibold text-start'>
           Hotels and Restaurants
         </h2>
