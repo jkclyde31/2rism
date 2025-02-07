@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-[100px] md:pt-[185px]">
       <div className="block md:hidden">
-          <img src="/images/logo.png" alt="Logo" className="w-[200px] pb-[25px] animate-slide-up" data-delay="0.3"/>
+          <img src="/images/logo.png" alt="Logo" className="w-[100px] pb-[25px] animate-slide-up" data-delay="0.3"/>
       </div>
       <h1 className="text-center md:text-start text-[48px] font-semibold tracking-0 text-white mb-[32px] animate-slide-up" data-delay="0.4">
         Discover the most engaging places

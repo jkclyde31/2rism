@@ -90,7 +90,7 @@ const HotelAndRestaurants = () => {
     <div className='inner-row relative'>
       {/* Text Section || Upper Section */}
       <div className='flex  flex-col md:flex-row w-full justify-between items-center mt-[50px] md:mt-[120px] mb-[20px] md:mb-[64px] gap-[10px]'>
-        <h2 className='text-[32px] font-semibold text-start'>
+        <h2 className='text-[32px] font-semibold text-center md:text-start'>
           Hotels and Restaurants
         </h2>
         <Button className='text-[16px] tracking-[0px] text-white px-[25px] py-[12px] bg-[#7B61FF]'>
