@@ -68,7 +68,7 @@ const PopularDestinations = () => {
       <div className="inner-row">
 
         
-        <h2 className="text-[32px] font-semibold text-center md:text-start  mb-[15px] md:mb-[48px] mt-[50px] md:mt-[120px]">
+        <h2 className="text-[32px] font-semibold text-center md:text-start  mb-[15px] md:mb-[48px] mt-[50px] md:mt-[120px] leading-[120%]">
           Popular Destinations
         </h2>
 
