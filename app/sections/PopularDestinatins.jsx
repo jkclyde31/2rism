@@ -46,9 +46,16 @@ const PopularDestinations = () => {
   // Define the slide content rendering function
   const renderSlideContent = (slide) => (
     <div className="rounded-lg overflow-hidden">
-      <div className="relative h-48">
-        <Image src={slide.image} alt={slide.name} layout="fill" objectFit="cover" />
-      </div>
+      <div className="relative w-full h-full">
+      <Image 
+        src={slide.image}
+        alt={slide.name}
+        width={0}
+        height={0}
+        sizes="100vw"
+        className="w-full h-auto"
+      />
+    </div>
       <div className="p-4">
         <h3 className="text-xl font-semibold mb-2">{slide.name}</h3>
         <p className="text-gray-600">{slide.description}</p>
@@ -59,9 +66,13 @@ const PopularDestinations = () => {
   return (
     <section>
       <div className="inner-row">
-        <h2 className="text-[32px] font-semibold text-start mb-[48px] mt-[120px]">
+
+        
+        <h2 className="text-[32px] font-semibold text-center md:text-start  mb-[15px] md:mb-[48px] mt-[50px] md:mt-[120px]">
           Popular Destinations
         </h2>
+
+        
         <Slider
           slides={destinations}
           slideContent={renderSlideContent}

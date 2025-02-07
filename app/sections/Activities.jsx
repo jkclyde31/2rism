@@ -69,7 +69,7 @@ const Activities = () => {
 
   return (
     <div className="inner-row">
-        <div className="flex w-full justify-between items-center mt-[120px] mb-[64px]">
+        <div className="flex w-full justify-between items-center mt-[60px] md:mt-[120px] mb-[25px] md:mb-[64px]">
            <h2 className="text-[32px] font-semibold text-start">Activities</h2>
            <Button className=" text-[16px] tracking-[0px] text-white px-[25px] py-[12px] bg-[#7B61FF]">
              View all
@@ -86,7 +86,7 @@ const Activities = () => {
                     alt={item.alt || "Image"}
                     className="mb-[12px]"
                 />
-                <p className="text-[18px] font-medium tracking-[0]">{item.title}</p>
+                <p className="text-[18px] font-medium tracking-[0] text-center md:text-start">{item.title}</p>
             </div>      
         ))}
       </div>

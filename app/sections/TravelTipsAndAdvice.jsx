@@ -8,22 +8,24 @@ const Card = ({ image, title, description, date, author, comments }) => {
     <div className="flex max-w-[664px] items-stretch justify-between gap-[32px] flex-col sm:flex-row">
       <Image
         src={image}
-        width={316}
-        height={380}
+        width={0}
+        height={0}
         alt="Picture of the author"
+         sizes="100vw"
+        className="w-full h-auto"
       />
 
       <div className="flex flex-col justify-between">
         <div>
-          <h2 className="text-[24px] tracking-[0px] leading-[36px] mb-[16px]">
+          <h2 className="text-[24px] tracking-[0px] leading-[36px] mb-[16px] text-center md:text-start">
             {title}
           </h2>
-          <p className="text-[#979797] text-[16px] tracking-[0px] leading-[24px] mb-[10px]">
+          <p className="text-[#979797] text-[16px] tracking-[0px] leading-[24px] mb-[10px] text-center md:text-start">
             {description}
           </p>
         </div>
 
-        <div className="flex w-full justify-start items-center gap-[15px]">
+        <div className="flex w-full justify-evenly md:justify-start items-center gap-[15px]  ">
           {/* Date */}
           <div className="flex items-center gap-[5px] text-[#979797]">
             <Calendar size={"16px"} />
@@ -75,9 +77,9 @@ const TravelTipsAndAdvice = () => {
 
   return (
     <div className="inner-row">
-      <div className="flex w-full justify-between items-center mt-[120px] mb-[64px]">
-        <h2 className="text-[32px] font-semibold text-start">
-          Hotels and Restaurants
+      <div className="flex flex-col md:flex-row w-full justify-between items-center mt-[120px] mb-[25px] md:mb-[64px] gap-[10px]">
+        <h2 className="text-[32px] font-semibold text-center md:text-start">
+          Travel Tips and Advices
         </h2>
         <Button className=" text-[16px] tracking-[0px] text-white px-[25px] py-[12px] bg-[#7B61FF]">
           View all
