@@ -71,7 +71,7 @@ const Slider = ({ slides, autoplayInterval = 5000, breakpoints, slideContent }) 
 
       {/* Navigation Buttons */}
       {loaded && instanceRef.current && (
-        <div className="absolute bottom-5 md:-bottom-10 right-4 flex space-x-2">
+        <div className="absolute bottom-10 md:-bottom-10 right-4 flex space-x-2">
           <button
             onClick={() => instanceRef.current?.prev()}
             className="bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition"
